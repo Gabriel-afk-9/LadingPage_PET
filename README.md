@@ -23,4 +23,4 @@ A iniciativa visa **melhorar a comunicação entre as Unidades Básicas de Saúd
 
 🌐 Página Publicada (Live Demo)
 Acesse a versão online da landing page através do link:
-🔗 https://seu-usuario.github.io/nome-do-repositorio
+🔗 https://lading-page-pet.vercel.app/
