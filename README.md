@@ -1,7 +1,7 @@
 # Landing Page - PET-Saúde: Informação para Ação
 
 ## 📌 Nome do Candidato
-**Gabriel Lima**
+**Gabriel Lima Silva Oliveira**
 
 ---
 
@@ -17,7 +17,7 @@ A iniciativa visa **melhorar a comunicação entre as Unidades Básicas de Saúd
 
 - **HTML5**: Estrutura semântica da página  
 - **CSS3**: Estilização e responsividade  
-- **JavaScript** (opcional): Interações simples e animações (se implementado)  
+- **JavaScript**: Interações simples e animações
 
 ---
 
