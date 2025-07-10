@@ -1,11 +1,187 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PET-Saúde - Informação para Ação</title>
+    <link rel="icon" href="img/PET.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <img src="img/logo.png" alt="Logo PET" class="logo-icon" />
+          <h2 class="logo-text">PET-Saúde</h2>
+        </a>
+        <ul class="nav-home">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+          <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="#problema" class="nav-link">Problema</a></li>
+          <li class="nav-item"><a href="#atuacao" class="nav-link">Atuação</a></li>
+          <li class="nav-item"><a href="#beneficios" class="nav-link">Benefícios</a></li>
+          <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero / Destaque -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Informação para Ação</h2>
+            <h3 class="subtitle">
+              Desenvolvimento e implantação de soluções digitais para otimizar a comunicação e gestão da Atenção Primária à Saúde.
+            </h3>
+            <div class="buttons">
+              <a href="#sobre" class="button cta">Conheça</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="img/es.png" alt="Imagem Destaque" class="hero-image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Sobre -->
+      <section class="about-section" id="sobre">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="img/yiu.png" alt="Sobre o Projeto" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">Sobre o Projeto</h2>
+            <p class="text">
+              Nosso objetivo é auxiliar na comunicação entre as Unidades Básicas de Saúde (UBS) e a população de Parnaíba-PI, gerenciar dados gerados nos atendimentos do SUS e otimizar a análise da situação de saúde local.
+            </p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Problema -->
+      <section class="menu-section" id="problema">
+        <h2 class="section-title">Problema que o Projeto Resolve</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="img/yes.png" alt="Problema" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">
+                  Identificamos a necessidade urgente de melhorar a comunicação e a gestão de dados em saúde, superando a fragmentação informacional existente nas UBS.
+                </h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Atuação -->
+      <section class="performaces-section" id="atuacao">
+        <h2 class="section-title">Como Atuamos</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="performaces-list swiper-wrapper">
+                <li class="performace swiper-slide">
+                  <img src="img/pla.jpg" alt="Plataforma Digital" class="user-image" />
+                  <h3 class="name">Plataforma Digital</h3>
+                  <i class="feedback">Desenvolvimento e implementação para facilitar o acesso e gestão de dados.</i>
+                </li>
+                <li class="performace swiper-slide">
+                  <img src="img/data.jpg" alt="Integração de Dados" class="user-image" />
+                  <h3 class="name">Integração de Dados</h3>
+                  <i class="feedback">Informações do SINAN, e-SUS, situação vacinal e atendimentos primários.</i>
+                </li>
+                <li class="performace swiper-slide">
+                  <img src="img/image.png" alt="Dashboards" class="user-image" />
+                  <h3 class="name">Dashboards Interativos</h3>
+                  <i class="feedback">Indicadores, gráficos e mapas dinâmicos para gestores e profissionais de saúde.</i>
+                </li>
+                <li class="performace swiper-slide">
+                  <img src="img/sau.jpg" alt="Educação em Saúde" class="user-image" />
+                  <h3 class="name">Educação em Saúde</h3>
+                  <i class="feedback">Ações e materiais digitais educativos para a população.</i>
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Benefícios -->
+      <section class="benefit-section" id="beneficios">
+        <h2 class="section-title">Benefícios para a Comunidade/Saúde Pública</h2>
+        <div class="benefits-wrapper">
+          <div class="benefit-item">
+            <i class="fa-solid fa-heart-circle-check benefit-icon"></i>
+            <h3 class="benefit-title">Fortalecimento da Vigilância em Saúde</h3>
+            <p class="benefit-description">Monitoramento contínuo de dados e indicadores para melhor tomada de decisões em saúde pública.</p>
+          </div>
+          <div class="benefit-item">
+            <i class="fa-solid fa-shield-heart benefit-icon"></i>
+            <h3 class="benefit-title">Aprimoramento da Prevenção e Controle</h3>
+            <p class="benefit-description">Ações mais eficientes para prevenção de doenças e controle de surtos nas comunidades atendidas.</p>
+          </div>
+          <div class="benefit-item">
+            <i class="fa-solid fa-book-open benefit-icon"></i>
+            <h3 class="benefit-title">Democratização do Conhecimento</h3>
+            <p class="benefit-description">Materiais digitais e educativos acessíveis à população para promover o autocuidado e a saúde preventiva.</p>
+          </div>
+          <div class="benefit-item">
+            <i class="fa-solid fa-users benefit-icon"></i>
+            <h3 class="benefit-title">Colaboração Multidisciplinar</h3>
+            <p class="benefit-description">Integração entre os cursos de Enfermagem, Odontologia e Sistemas de Computação, unindo saberes para soluções mais eficazes.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contato -->
+      <section class="contact-section" id="contato">
+        <h2 class="section-title">Contatos</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info"><i class="fa-solid fa-location-crosshairs"></i> <p>Rua da Saúde, 245 - Centro | Parnaíba - PI, CEP 64200-000</p></li>
+            <li class="contact-info"><i class="fa-regular fa-envelope"></i> <p>contato@petsaude.org.br</p></li>
+            <li class="contact-info"><i class="fa-solid fa-phone"></i> <p>(86) 99845-2301</p></li>
+            <li class="contact-info"><i class="fa-regular fa-clock"></i> <p>Segunda a Sexta: 8h às 17h</p></li>
+            <li class="contact-info"><i class="fa-regular fa-clock"></i> <p>Sábado: 8h às 12h</p></li>
+            <li class="contact-info"><i class="fa-solid fa-globe"></i> <p>www.petsaude.org.br</p></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Rodapé -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">UESPI - Parnaíba</p>
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+          <p class="policy-text">
+            <a href="#" class="policy-link">Projeto PET-Saúde © 2025</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
