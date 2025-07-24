@@ -1,8 +1,4 @@
 # Landing Page - PET-Saúde: Informação para Ação
-
-## 📌 Nome do Candidato
-**Gabriel Lima Silva Oliveira**
-
 ---
 
 ## 🧠 Sobre o Projeto
